@@ -9,7 +9,10 @@ The backend is written in PowerShell scripts to communicate with the OS directly
 
 Let me know what you think!
 
-You can download a self-extracting zip, or the cloned zip.
+You can download it from here on GitHub, or a self-extracting zip from my website.
+
+http://wright.tech/BeachedWhale/BeachedWhale.exe
+
 -Kyle
 
 http://wright.tech
