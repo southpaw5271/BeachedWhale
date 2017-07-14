@@ -8,6 +8,10 @@ This program can remove all of the bloatware applications that come preinstalled
 The backend is written in PowerShell scripts to communicate with the OS directly. It's fast, easy to use, and safe.
 
 Let me know what you think!
+
+You can download a self-extracting zip, or the cloned zip.
 -Kyle
+
 http://wright.tech
-@wrong_kyle
+
+Twitter: @wrong_kyle
