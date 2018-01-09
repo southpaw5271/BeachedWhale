@@ -1,19 +1,20 @@
 # BeachedWhale
 BeachedWhale removes Windows 10 bloatware
 
-BeachedWhale Version 8.0 has a GUI written in Python using the appJar repo.
-Check out appJar at: http://appjar.info
+This program can remove all of the bloatware applications that come preinstalled and/or installed later without your consent from Windows 10. 
 
-This program can remove all of the bloatware applications that come preinstalled and installed without your consent from Windows 10. 
-The backend is written in PowerShell scripts to communicate with the OS directly. It's fast, easy to use, and safe.
+It's fast, easy to use, and safe. Let me know what you think!
 
-There are two versions of the program. Version 8.0, which has a front end in python. There is also version 7.1, which is one PowerShell script. It also has a GUI built on Windows Forms. Both perform the same, version 8.0 is just prettier.
+You can download it from here on GitHub.
 
-Let me know what you think!
+HOW TO USE:
+1. Click this link to download the .zip: https://github.com/southpaw5271/BeachedWhale/archive/master.zip
+2. Extract the contents of the .zip file to wherever you want.
+3. Right click on the BeachedWhale7.2.ps1 file and click Run with PowerShell.
+4. If you see a security error don't panic, this is normal for systems that have never run PS scripts before. Hit the letter 'A' and press enter. 
+5. Click the buttons. If you don't click a button, those apps won't be removed. 
 
-You can download it from here on GitHub, or a self-extracting zip from my website.
-
-http://wright.tech/BeachedWhale/BeachedWhale.exe
+NOTE: Remove OneDrive should start the silent uninstall process. It will only prompt you once using UAC and then do everything in the background. 
 
 -Kyle
 
