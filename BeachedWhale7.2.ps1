@@ -1,4 +1,4 @@
-﻿##############################################################################################################################################################
+##############################################################################################################################################################
 #  Hides the Powershell window
 ##############################################################################################################################################################
 Add-Type -Name win -MemberDefinition '[DllImport("user32.dll")] public static extern bool ShowWindow(int handle, int state);' -Namespace native
@@ -56,8 +56,11 @@ Function Remove-Bloatware{
   Get-AppxPackage -Name *MarchofEmpires* | Remove-AppxPackage
   Get-AppxPackage -Name *Keeper* | Remove-AppxPackage
   Get-AppxPackage -Name *Microsoft3DViewer* | Remove-AppxPackage
-  #Get-AppxPackage -Name ** | Remove-AppxPackage
-
+  Get-AppxPackage -Name *Disney* | Remove-AppxPackage
+  Get-AppxPackage -Name *Spotify* | Remove-AppxPackage
+  Get-AppxPackage -Name *Wallet* | Remove-AppxPackage
+  Get-AppxPackage -Name *SketchBook* | Remove-AppxPackage
+  Get-AppxPackage -Name *Bubble* | Remove-AppxPackage
   $RemoveBloatware.Text = "Done. Bloatware Removed."
   #$wshell.Popup("Bloatware removed.",0,"$version")
 }
@@ -97,7 +100,7 @@ Function Remove-OneDrive
 ##############################################################################################################################################################
 #  Powershell variable dictionary
 ##############################################################################################################################################################
-$version = "BeachedWhale 7.1"
+$version = "BeachedWhale 7.2"
 
 
 
@@ -112,10 +115,10 @@ $Form = New-Object system.Windows.Forms.Form
 $Form.Text = "$version"
 $Form.TopMost = $true
 $Form.Width = 772
-$Form.Height = 401
+$Form.Height = 451
 
 $label2 = New-Object system.windows.Forms.Label
-$label2.Text = "BeachedWhale has a fancy new GUI! It also has a larger bloatware dictionary than ever."
+$label2.Text = "$version has a larger bloatware dictionary than ever. Updated 1/9/18."
 $label2.AutoSize = $true
 $label2.Width = 25
 $label2.Height = 15
@@ -166,6 +169,28 @@ $RemoveOneDrive.Add_Click({
 $RemoveOneDrive.location = new-object system.drawing.point(419,204)
 $RemoveOneDrive.Font = "Microsoft Sans Serif,12"
 $Form.controls.Add($RemoveOneDrive)
+
+$label3 = New-Object system.windows.Forms.LinkLabel
+$label3.Text = "Install your favorite apps from http://ninite.com."
+$label3.AutoSize = $true
+$label3.Width = 25
+$label3.Height = 15
+$label3.location = new-object system.drawing.point(39,329)
+$label3.LinkColor = "BLUE"
+$label3.add_Click({[system.Diagnostics.Process]::start("http://ninite.com")})
+$label3.Font = "Microsoft Sans Serif,12"
+$Form.controls.Add($label3)
+
+$label4 = New-Object system.windows.Forms.LinkLabel
+$label4.LinkColor = "BLUE"
+$label4.Text = "Do more tweaking with WinAero Tweaker! Click here to check it out!"
+$label4.AutoSize = $true
+$label4.Width = 25
+$label4.Height = 15
+$label4.location = new-object system.drawing.point(39,359)
+$label4.add_Click({[system.Diagnostics.Process]::start("https://winaero.com/download.php?view.1796")})
+$label4.Font = "Microsoft Sans Serif,12"
+$Form.controls.Add($label4)
 
 [void]$Form.ShowDialog()
 $Form.Dispose()
