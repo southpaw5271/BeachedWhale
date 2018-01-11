@@ -21,3 +21,5 @@ NOTE: Remove OneDrive should start the silent uninstall process. It will only pr
 http://wright.tech
 
 Twitter: @wrong_kyle
+
+NEW!: There is now a list of the apps that will be removed included in the zip. The apps it’s referencing are only the pre-installed apps. Meaning that if you installed Microsoft One Note, only the basic bloatware version will be removed.
