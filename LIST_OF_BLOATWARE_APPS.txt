@@ -2,7 +2,7 @@
 
 
 Windows Apps:
-	Windows Camera
+	Windows Camera
 	Zune Music
 	Windows Maps
 	Bing Finance
