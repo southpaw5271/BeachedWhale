@@ -93,7 +93,13 @@ Function Remove-WindowsStore
   $removeWinStoreBtn.Text = "Windows Store Removed."
 }
 
-
+Function Remove-OneDrive
+{
+  $uninstallOneDriveBtn.Text = "Removing OneDrive..."
+  C:\Windows\SysWOW64\OneDriveSetup.exe /uninstall
+  sleep 5
+  $uninstallOneDriveBtn.Text = "OneDrive uninstalling in background."
+}
 
 ##############################################
 Add-Type -AssemblyName System.Windows.Forms
