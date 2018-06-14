@@ -20,8 +20,10 @@ HOW TO USE:
 4. If you see a security error don't panic, this is normal for systems that have never run PS scripts before. Hit the letter 'A' and press enter. 
 5. Click the buttons. If you don't click a button, those apps won't be removed. 
 
-NOTE: Remove OneDrive should start the silent uninstall process. It will only prompt you once using UAC and then do everything in the background. 
+NOTE: Remove OneDrive should start the silent uninstall process. It will only prompt you once using UAC, and then do everything in the background. 
 
 -Kyle
 
 http://wright.tech
+
+PS: You should really check out WinAero Tweaker. I did not make it, but I love it. It let's you customize Windows 10. You can do things like disable the installation of new bloatware. https://winaero.com/comment.php?comment.news.1836
