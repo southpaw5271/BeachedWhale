@@ -7,8 +7,10 @@ It's fast, easy to use, and safe. Let me know what you think!
 
 You can download it from here on GitHub.
 
-NEW: 
+NEW:
+ 
 -Updated to version 1803. Now removes bloatware from every Windows 10 version up to and including 1803. I switched to the same version number as Windows 10 itself to show what version it can remove bloatware from. 
+
 -Apps are now grouped into categories to reduce the chance of removing apps that you may want to keep.
 
 HOW TO USE:
