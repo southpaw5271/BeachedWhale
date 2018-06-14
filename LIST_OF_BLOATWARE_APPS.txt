@@ -1,49 +1,59 @@
-All of the apps listed below will be removed when you click the “Remove Bloatware” button in the app:
+﻿All of the apps listed below will be removed when you click the “Remove Bloatware” button in the app:
 
-Windows Camera
-Zune Music
-Windows Maps
-Microsoft Solitaire Collection
-Bing Finance
-Zune Video
-Bing News
-Windows Phone
-Bing Sports
-Bing Weather
-Windows Sound Recorder
-3D Builder
-Skype App
-Microsoft Office Hub
-Messaging
-Advertising.Xaml
-One Note
-One Connect
-People
-Windows Alarms
-Get Started
-Windows Communications Apps
-Phone
-Sway
-Windows Feedback Hub
-Candy Crush
-Royal Revolt
-Power BI
-Eclipse
-Adobe Photoshop Express
-Pandora
-Network Speed Test
-Remote Desktop
-Facebook
-Minecraft
-Twitter
-Sling
-Duolingo
-Phototastic Collage
-March of Empires
-Keeper
-Microsoft 3D Viewer
-Disney
-Spotify
-Wallet
-Autodesk Sketch Book
-Bubble
+
+Windows Apps:
+	Windows Camera
+	Zune Music
+	Windows Maps
+	Bing Finance
+	Zune Video
+	Bing News
+	Windows Phone
+	Bing Sports
+	Bing Weather
+	Windows Sound Recorder
+	3D Builder
+	Skype App
+	Microsoft Office Hub
+	Messaging
+	Advertising.Xaml
+	One Note
+	One Connect
+	People
+	Windows Alarms
+	Get Started
+	Windows Communications Apps
+	Phone
+	Sway
+	Windows Feedback Hub
+	Network Speed Test
+	Remote Desktop (not the service)
+	Microsoft 3D Viewer
+	Wallet
+
+
+Games:
+	March of Empires
+	Microsoft Solitaire Collection
+	Disney Magic Kingdom
+	Bubble Witch Saga
+	Candy Crush
+	Royal Revolt
+
+Music:
+	Spotify
+	Pandora
+
+Social:
+	Facebook
+	Twitter
+
+Other:
+	Sling
+	Duolingo
+	Phototastic Collage
+	Keeper
+	Autodesk Sketch Book
+	Power BI
+	Eclipse
+	Adobe Photoshop Express
