@@ -1,4 +1,4 @@
-﻿All of the apps listed below will be removed when you click the “Remove Bloatware” button in the app:
+﻿The apps that can be removed are grouped into categories. Match the category to the button label in the app.
 
 
 Windows Apps:
