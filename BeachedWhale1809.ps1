@@ -1,7 +1,9 @@
+Requires -RunAsAdministrator
+sleep 5
 Add-Type -Name win -MemberDefinition '[DllImport("user32.dll")] public static extern bool ShowWindow(int handle, int state);' -Namespace native
 [native.win]::ShowWindow(([System.Diagnostics.Process]::GetCurrentProcess() | Get-Process).MainWindowHandle,0)
 
-$version = "BeachedWhale 1803"
+$version = "BeachedWhale 1809"
 
 Function Remove-WinApps{
   #$wshell.Popup("Bloatware removal has started. Don't close BeachedWhale until it's finished.",0,"$version")
@@ -47,6 +49,7 @@ Function Remove-Games{
 	Get-AppxPackage -Name *CandyCrush* | Remove-AppxPackage
 	Get-AppxPackage -Name *MicrosoftSolitaireCollection* | Remove-AppxPackage
 	Get-AppxPackage -Name *RoyalRev* | Remove-AppxPackage
+	Get-AppxPackage -Name *COOKINGFEVER* | Remove-AppxPackage
 	$removeGamesBtn.Text = "Games Removed."
 }
 
@@ -61,6 +64,7 @@ Function Remove-Other{
 	Get-AppxPackage -Name *Keeper* | Remove-AppxPackage
 	Get-AppxPackage -Name *SketchBook* | Remove-AppxPackage
 	Get-AppxPackage -Name *DolbyAccess* | Remove-AppxPackage
+	Get-AppxPackage -Name *Fitbit* | Remove-AppxPackage
 	$removeOtherBtn.Text = "Other Bloatware Removed."
 }
 

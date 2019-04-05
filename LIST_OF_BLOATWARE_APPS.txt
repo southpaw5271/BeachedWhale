@@ -38,7 +38,9 @@ Games:
 	Disney Magic Kingdom
 	Bubble Witch Saga
 	Candy Crush
+	Candy Crush Friends
 	Royal Revolt
+	Cooking Fever
 
 Music:
 	Spotify
@@ -57,3 +59,4 @@ Other:
 	Power BI
 	Eclipse
 	Adobe Photoshop Express
+	Fitbit Coach
